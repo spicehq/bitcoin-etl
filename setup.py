@@ -33,7 +33,8 @@ setup(
     install_requires=[
         'requests~=2.20',
         'python-dateutil~=2.7',
-        'click~=7.0'
+        'click~=7.0',
+        'pyarrow~=8.0'
     ],
     extras_require={
         'streaming': [

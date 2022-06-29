@@ -30,7 +30,7 @@ from bitcoinetl.cli.stream import stream
 
 
 @click.group()
-@click.version_option(version='1.5.2')
+@click.version_option(version='1.5.2-spicehq/release/v1.0.0')
 @click.pass_context
 def cli(ctx):
     pass

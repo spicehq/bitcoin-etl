@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: BitcoinETL",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/bitcoinetl.py",
+      "args": [
+        "export_all",
+        "-s",
+        "687824",
+        "-e",
+        "687824",
+        "-p",
+        "http://bitcoin:bitcoin@127.0.0.1:8332",
+        "--enrich",
+        "false"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "python": "/opt/homebrew/Caskroom/miniforge/base/envs/bitcoin-etl/bin/python"
+    }
+  ]
+}
